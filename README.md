@@ -1,9 +1,6 @@
-# Shreeya Maliye — Cloud & DevOps Engineer Portfolio
+# Shreeya's Portfolio
 
 A futuristic DevOps command-center portfolio built with React 19, Vite, TypeScript, Tailwind CSS, and Framer Motion.
-
-**Live Preview:** [shreeya-portfolio.preview.emergentagent.com](https://shreeya-portfolio.preview.emergentagent.com/)
-
 ---
 
 ## Tech Stack
@@ -11,8 +8,6 @@ A futuristic DevOps command-center portfolio built with React 19, Vite, TypeScri
 | Layer | Technologies |
 |-------|-------------|
 | Frontend | React 19, Vite 7, TypeScript, Tailwind CSS 4, Framer Motion |
-| Deployment | Vercel, AWS S3, CloudFront |
-| CI/CD | GitHub Actions |
 
 ---
 
@@ -84,25 +79,11 @@ Open [http://localhost:5173](http://localhost:5173)
 npm run build
 npm run preview
 ```
-
----
-
-## Customization
-
-All content lives in `src/data/portfolio.ts`. Update:
-
-- Personal info, social links, email
-- Metrics, skills, experience, projects
-- Certifications and achievements
-- GitHub/demo URLs
-
-Place your resume at `public/resume.pdf` for the Download Resume button.
-
 ---
 
 ## Deployment
 
-### Vercel (Recommended)
+### Vercel 
 
 See [docs/DEPLOY_VERCEL.md](docs/DEPLOY_VERCEL.md)
 
@@ -110,33 +91,6 @@ See [docs/DEPLOY_VERCEL.md](docs/DEPLOY_VERCEL.md)
 npm i -g vercel
 vercel
 ```
-
-### AWS S3 + CloudFront
-
-See [docs/DEPLOY_AWS.md](docs/DEPLOY_AWS.md)
-
----
-
-## CI/CD
-
-GitHub Actions workflow (`.github/workflows/deploy.yml`):
-
-1. **Build** — lint, build, upload artifact
-2. **Deploy Vercel** — optional (requires secrets)
-3. **Deploy AWS** — S3 sync + CloudFront invalidation (requires secrets)
-
-### Required GitHub Secrets
-
-| Secret | Description |
-|--------|-------------|
-| `VERCEL_TOKEN` | Vercel API token |
-| `VERCEL_ORG_ID` | Vercel organization ID |
-| `VERCEL_PROJECT_ID` | Vercel project ID |
-| `AWS_ACCESS_KEY_ID` | AWS access key |
-| `AWS_SECRET_ACCESS_KEY` | AWS secret key |
-| `AWS_REGION` | e.g. `ap-south-1` |
-| `AWS_S3_BUCKET` | S3 bucket name |
-| `AWS_CLOUDFRONT_ID` | CloudFront distribution ID |
 
 ---
 
@@ -150,5 +104,4 @@ Configured in `index.html`:
 ---
 
 ## License
-
-MIT © Shreeya Maliye
+ © Shreeya Maliye
