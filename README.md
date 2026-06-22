@@ -104,4 +104,4 @@ Configured in `index.html`:
 ---
 
 ## License
- © Shreeya Maliye
+ © Shreeya Maliye 
