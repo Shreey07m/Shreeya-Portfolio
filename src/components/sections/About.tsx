@@ -46,7 +46,7 @@ export function About() {
         </GlassCard>
 
         <GlassCard delay={0.2}>
-          <h3 className="text-lg font-semibold text-neon-cyan mb-6 font-mono">// focus_areas[]</h3>
+          <h3 className="text-lg font-semibold text-neon-cyan mb-6 font-mono"> Focus_Areas[]</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {focusAreas.map((area, i) => (
               <motion.div

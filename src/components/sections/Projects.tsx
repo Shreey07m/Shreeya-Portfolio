@@ -77,9 +77,9 @@ function ProjectCard({
         <GlowButton href={project.github} variant="outline" className="text-xs px-4 py-2" target="_blank" rel="noopener noreferrer">
           GitHub
         </GlowButton>
-        <GlowButton href={project.demo} variant="primary" className="text-xs px-4 py-2" target="_blank" rel="noopener noreferrer">
+        {/* <GlowButton href={project.demo} variant="primary" className="text-xs px-4 py-2" target="_blank" rel="noopener noreferrer">
           Live Demo
-        </GlowButton>
+        </GlowButton> */}
       </div>
     </motion.div>
   )

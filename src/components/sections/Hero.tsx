@@ -103,7 +103,7 @@ export function Hero() {
                 transition={{ duration: 2, repeat: Infinity }}
                 className="w-2 h-2 rounded-full bg-green-400"
               />
-              System Operational • {personalInfo.location}
+              {personalInfo.location}
             </motion.div>
 
             <motion.h1

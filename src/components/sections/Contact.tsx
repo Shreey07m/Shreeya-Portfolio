@@ -78,7 +78,7 @@ export function Contact() {
           className="flex flex-col justify-center space-y-6"
         >
           <div className="glass rounded-xl p-6">
-            <h3 className="text-lg font-mono text-neon-cyan mb-4">// social_links[]</h3>
+            <h3 className="text-lg font-mono text-neon-cyan mb-4"> Social_Links[]</h3>
             <div className="space-y-4">
               <GlowButton
                 href={personalInfo.social.linkedin}

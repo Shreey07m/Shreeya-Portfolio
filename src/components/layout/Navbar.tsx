@@ -95,10 +95,10 @@ export function Footer() {
     <footer className="border-t border-neon-cyan/10 py-8 px-4">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
         <p className="text-text-secondary text-sm font-mono">
-          <span className="text-neon-cyan">$</span> echo &quot;Built with React, Vite &amp; Framer Motion&quot;
+          <span className="text-neon-cyan">$</span> echo &quot;Deploy. Automate. Scale.&quot;
         </p>
         <p className="text-text-secondary text-sm">
-          © {new Date().getFullYear()} Shreeya Maliye. All systems operational.
+          © {new Date().getFullYear()} Shreeya Maliye. Designing reliable and scalable systems.
         </p>
       </div>
     </footer>

@@ -50,7 +50,7 @@ function MetricCard({
 
 export function ImpactMetrics() {
   return (
-    <Section id="metrics" subtitle="Impact Metrics" title="Production Results">
+    <Section id="metrics" subtitle="Impact Metrics" title="Career Highlights">
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 md:gap-6">
         {metrics.map((metric, i) => (
           <MetricCard
